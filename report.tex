@@ -38,7 +38,7 @@
             \centering
             \includegraphics[width=0.5\linewidth]{./img/vub.png}
         \end{figure}
-        \title{Navigation and Intelligent Vehicles, Lab session # 3 Report}
+        \title{Modeling Languages Project Report}
         \author{Juan Jose Soriano Escobar }
         \maketitle
         \newpage
@@ -53,27 +53,47 @@
     
     
             \section{Introduction}
-            Modelling is an important part of any System or product development that helps to undrestand the model system an holistic point of view and to ensure that all the functionalities and
-            stakeholders requirements are cover. One of the most popullar modeling tools nowadays in the software and product development environment is UML.
 
-            UML is ....
+            Modeling is an important part of any System or product development that helps to understand the model system an holistic point of view and to ensure that all the functionalities and
+            stakeholders requirements are cover. One of the most popular modeling tools nowadays in the software and product development environment is UML.
 
-            In this report, a Hospital appointment and billing system management are described and modeled in UML as result of the concepts and diagrams learnt in the corse Modellig Languages.
+            UML is a communication standard for the world of software development.  It consists of different types of diagrams that will, together, help you describe the boundary of the system, the structure 
+            of the system, and the behavior of the system.
 
-            The description of the model in this report will be splitted by diagram types, covering use case, sequence, activity, state and class diagram.
+            In this report, a Hospital appointment and billing system management are described and modeled in UML as result of the concepts and diagrams learn in the course of Modeling Languages.
+
+            The description of the model in this report will be split by diagram types, covering use case, sequence, activity, state and class diagram.
              
             \newpage         
             \section{Use Case Diagram}
+
             A use case captures a contract between the stakeholders of a system about its behavior describes the
             system’s behavior under various conditions as it responds to a request from the “primary actor”
-            (Delligatti, Steiner, & Soley, 2013).
+            (Delligatti, Steiner, & Soley, 2013). % TODO: cite
+
+            The case diagram is also good to ensure that every member in the development team understand the main activities and behavior of the system,
+            recognizing the actors and the global interactions between them
+
+            The use case diagram is divided in three main behaviors, the appointment management, clinical history management and payments.
+
+            \subsection{Appointment Use Case}
+
+            In the figure \ref{fig:Appointmenr Use Case} the use case diagram for the appointment system is Illustrated. It contains four Actors, three Human actors such as the Patient, the Receptionist and the Doctor. 
+            The remaining actor is the Hospital System which is consider as a Software from the hospital that is used to manage all the logistics, billing and service operations by different users.
+
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/appointments.png}
                 \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
+                \caption{Created with Modelion 3.7.}
+                \label{fig:Appointmenr Use Case}
             \end{figure}
+
+
+            This diagram presents how the patient communicates with the receptionist by phone or at the Hospital desk, to Schedule, cancel or modify an appointment. To do so, the Receptionist has to use the
+            system, registering the patient and validating if the doctor is available for the required appointment.
+
+            
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/payments.png}
@@ -106,7 +126,21 @@
             is instantiated and generally finishes executing when that instance is destroyed
             \begin{figure}[H]
                 \centering 
-                \includegraphics[width=1\linewidth]{./img/seq.png}
+                \includegraphics[width=1\linewidth]{./img/seq1.png}
+                \setcaptioncitation{self-made}
+                \caption{Distributed Computing Implementation.}
+                \label{fig:architecture}
+            \end{figure}
+            \begin{figure}[H]
+                \centering 
+                \includegraphics[width=1\linewidth]{./img/seq2.png}
+                \setcaptioncitation{self-made}
+                \caption{Distributed Computing Implementation.}
+                \label{fig:architecture}
+            \end{figure}
+            \begin{figure}[H]
+                \centering 
+                \includegraphics[width=1\linewidth]{./img/seq3.png}
                 \setcaptioncitation{self-made}
                 \caption{Distributed Computing Implementation.}
                 \label{fig:architecture}
