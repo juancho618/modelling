@@ -130,12 +130,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./img/appointments.png
 INPUT ./img/appointments.png
 INPUT ./img/appointments.png
-INPUT ./img/payments.png
-INPUT ./img/payments.png
-INPUT ./img/payments.png
 INPUT ./img/cHistories.png
 INPUT ./img/cHistories.png
 INPUT ./img/cHistories.png
+INPUT ./img/payments.png
+INPUT ./img/payments.png
+INPUT ./img/payments.png
 INPUT ./img/class.png
 INPUT ./img/class.png
 INPUT ./img/class.png

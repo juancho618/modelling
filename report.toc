@@ -1,7 +1,9 @@
 \contentsline {section}{\numberline {A}Introduction}{4}
 \contentsline {section}{\numberline {B}Use Case Diagram}{5}
 \contentsline {subsection}{\numberline {B.1}Appointment Use Case}{5}
-\contentsline {section}{\numberline {C}Class Diagram}{6}
+\contentsline {subsection}{\numberline {B.2}Examination Use Case}{5}
+\contentsline {subsection}{\numberline {B.3}Payments Use Case}{6}
+\contentsline {section}{\numberline {C}Class Diagram}{7}
 \contentsline {section}{\numberline {D}Sequence Diagram}{7}
 \contentsline {section}{\numberline {E}Activity Case Diagram}{10}
 \contentsline {section}{\numberline {F}State Diagram}{11}

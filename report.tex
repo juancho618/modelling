@@ -78,36 +78,57 @@
 
             \subsection{Appointment Use Case}
 
-            In the figure \ref{fig:Appointmenr Use Case} the use case diagram for the appointment system is Illustrated. It contains four Actors, three Human actors such as the Patient, the Receptionist and the Doctor. 
+            In the figure \ref{fig:Appointment} the use case diagram for the appointment system is Illustrated. It contains four Actors, three Human actors such as the Patient, the Receptionist and the Doctor. 
             The remaining actor is the Hospital System which is consider as a Software from the hospital that is used to manage all the logistics, billing and service operations by different users.
 
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/appointments.png}
-                \setcaptioncitation{self-made}
-                \caption{Created with Modelion 3.7.}
-                \label{fig:Appointmenr Use Case}
+                \setcaptioncitation{Created with Modelion 3.7.}
+                \caption{Appoint Use Case Diagram}
+                \label{fig:Appointment}
             \end{figure}
 
 
             This diagram presents how the patient communicates with the receptionist by phone or at the Hospital desk, to Schedule, cancel or modify an appointment. To do so, the Receptionist has to use the
             system, registering the patient and validating if the doctor is available for the required appointment.
 
-            
-            \begin{figure}[H]
-                \centering 
-                \includegraphics[width=1\linewidth]{./img/payments.png}
-                \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
-            \end{figure}
+            \subsection{Examination Use Case}
+
+            Once the patient has an appointment scheduled, the next step is to understand the appointment behavior. As actors, there are the same four included in the previous Use Case Diagram plus the appointment considered as a 
+            secondary one.
+
+            The day of the appointment, the Patient will go to the Hospital desk by the time of the appointment as is expected. The receptionist will activate the appointment in the system, to let know to the Doctor and to the billing 
+            staff that the patient has come to the appointment as planned.
+
+            Once in the execution of the appointment with the Doctor, depending on the type of the appointment (Examination or consultation), the Doctor can rad and Update the Patient Clinical History by using the Hospital System. During the reportm
+            the Doctor is allowed to add files, treatment description and some text explaining the patient condition.
+
+            Other interaction between the Doctor and the system such as creating reports and email notifications will be explained later in the Sequence diagram.
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/cHistories.png}
-                \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
+                \setcaptioncitation{Created with Modelion 3.7.}
+                \caption{Examination Use Case.}
+                \label{fig:examination}
             \end{figure}
+            
+            \subsection{Payments Use Case}
+
+            In the payments Use Case, the appointment becomes a secondary actor by itself because the appointment is the connecting factor (somehow the product consume by the patient) between the Patient and the
+            Hospital. In the diagram included in the Figure  \ref{fig:payment}, the Economy staff Actor from the hospital is introduced to review the payment status of the appointments and create penalty fees whenever is needed.
+            The Economy staff uses the Hospital system to access to the appointments an patient payments.
+
+            \begin{figure}[H]
+                \centering 
+                \includegraphics[width=1\linewidth]{./img/payments.png}
+                \setcaptioncitation{Created with Modelion 3.7.}
+                \caption{Payment Use Case Diagram}
+                \label{fig:payment}
+            \end{figure}
+
+            The Patient have the option of paying at the hospital or by a bank transfer.
+            
             \section{Class Diagram} %reformulate
             Class diagram describes the attributes and operations of a class and also the constraints 
             imposed on the system. The class diagrams are widely used in the modeling of objectoriented 
