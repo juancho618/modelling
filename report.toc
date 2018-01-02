@@ -4,6 +4,9 @@
 \contentsline {subsection}{\numberline {B.2}Examination Use Case}{5}
 \contentsline {subsection}{\numberline {B.3}Payments Use Case}{6}
 \contentsline {section}{\numberline {C}Class Diagram}{7}
-\contentsline {section}{\numberline {D}Sequence Diagram}{7}
-\contentsline {section}{\numberline {E}Activity Case Diagram}{10}
-\contentsline {section}{\numberline {F}State Diagram}{11}
+\contentsline {subsubsection}{\numberline {C.0.1}GUI operations}{8}
+\contentsline {subsubsection}{\numberline {C.0.2}Hospital System operations}{8}
+\contentsline {subsubsection}{\numberline {C.0.3}Database operations}{9}
+\contentsline {section}{\numberline {D}Sequence Diagram}{9}
+\contentsline {section}{\numberline {E}Activity Case Diagram}{12}
+\contentsline {section}{\numberline {F}State Diagram}{13}
