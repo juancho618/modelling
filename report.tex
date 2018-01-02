@@ -84,7 +84,7 @@
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/appointments.png}
-                \setcaptioncitation{Created with Modelion 3.7.}
+                \setcaptioncitation{Created with Modelio 3.7.}
                 \caption{Appoint Use Case Diagram}
                 \label{fig:Appointment}
             \end{figure}
@@ -108,7 +108,7 @@
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/cHistories.png}
-                \setcaptioncitation{Created with Modelion 3.7.}
+                \setcaptioncitation{Created with Modelio 3.7.}
                 \caption{Examination Use Case.}
                 \label{fig:examination}
             \end{figure}
@@ -122,7 +122,7 @@
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/payments.png}
-                \setcaptioncitation{Created with Modelion 3.7.}
+                \setcaptioncitation{Created with Modelio 3.7.}
                 \caption{Payment Use Case Diagram}
                 \label{fig:payment}
             \end{figure}
@@ -132,13 +132,45 @@
             \section{Class Diagram} %reformulate
             Class diagram describes the attributes and operations of a class and also the constraints 
             imposed on the system. The class diagrams are widely used in the modeling of objectoriented 
-            systems because they are the only UML diagrams, which can be mapped directly with object-oriented languages.
+            systems because they are dthe only UML diagrams, which can be mapped directly with object-oriented languages.
+            
+            The class diagram esplain in detail the entities with it respective attributes and operations avaliable. It also describes the relation, multiplicity and
+            assosiation between the the different elemets. The class diagra is one of the main elements when the system is design and the one that keep updating during the 
+            design of the other diagrams.
+
+            In the figure \ref{} the class diagram for the hospital application is presented. All the Actors in the use case diagram became entities and some sub-classes are derive from a main class.
+            A good example is the Staff class that includes all thhe personal working at the Hospital in different departments. At the first level is divided in Recepcionist, Doctor Entity and Economic entity, and at the same time,
+            the Doctor ebtity is generalize into Specialist, Resident and Assistance. The practitioner is considered as any of the Doctor enetities that is assign to a patient.
+
+            Additionaly, the staff is associated to a Department and every Department contain waiting rooms that are addressed by a number, building and Section.
+
+            As it was mentioned before, the hospital system is considered as a local software that manages the appointments and the clinic histories of the patients. In oder to access to the sytem, every member of the staff have an account with
+            it respective user name and password. Iside the system the user interacts with a Graphical User Interface that displays the appointments, allow the receptionis to validate and schedule the appointments and the doctors to read and write the
+            medical history of the patient. 
+
+            The system also generates and schedule notifications. I like to imaging the system as a server runinig all the logic of the application, connected to a Databese where all the Clinical Stories, Users and bills are saved.
+            The GUI is part of the front-end (and middleware) of the application and the system is the back-end, using a \textbf{token} to authenticate and stablish the connection with the database.
+            
+            It is easy to identify the system controller (application) as the entity with the biggest amount of operations. This is due to its "gateway" nature to allow the  interaction between the other entities and actors in the system.
+            Some of the main funtions are:
+
+            Login(String username, String password):String = It allows the user to authenticate to the system and access to the Patient, appointment and billing information. This method returns an String with the new connection view for the user. It is declare as an
+            String but it could also be a XML or HTML file for a web application. The login connects to the system and use the fucntion \textit{validateFunction}.
+
+            validateFunction(String username, String password, String token):String = This function receives the username and the password from the GUI and adds the unique token to acces and validate the user in the database. This method will return a string with the view and the
+            user cookie. The cookie is assigned by the database with the function \textit{createCookie}.
+
+            createCookie(String token, String username, String password): string =  the database system receives tghe server token toghether with the username and password and if the data is correct, it will return a acces cookie that is saved and assigned to the user in the database.
+            From this point in advance I assume and is that the cookie is included by the browser or GUI in every operation while the user remains connected and authenticathed in the system.
+
+            loginFail():String =  is an operation that is triggered when the user credentials don match with the ones created in the system.
+            
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/class.png}
-                \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
+                \setcaptioncitation{Created with Modelio 3.7.}
+                \caption{Class Diagram.}
+                \label{fig:class}
             \end{figure}
             \section{Sequence Diagram}
             Next to the activity diagram is the State Machine Diagram, which is also a behavior
