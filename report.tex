@@ -244,31 +244,58 @@
             Finally in the figure \ref{fig:sequence3} illustrates hoe the report is saved in the clinical history of the patient and the creation of the bill to be paid by the patient.
             At the end of the day the Doctor is able to logout and destroy the user connection with the system.
 
-            \section{Activity Case Diagram}
+            \section{Activity Case Diagram} %cite
+
             The activity diagrams are dynamic views of the system that expresses sequence of
             behaviors and event occurrence over time (Delligatti, Steiner, & Soley, 2013). Together
-            with the state machine diagram, the system behavior is expressed.
+            with the state diagram, the system behavior is expressed.
+
+            The activity diagram  somehow divides the hospital management in processes. In the figure \ref{fig:activity} the activity diagram is explained in 8 parts:
+
+            \begin{itemize}
+                    \item \textbf{Appointment Creation}
+                    \item \textbf{Patient Registration}
+                    \item \textbf{Assign Doctor}
+                    \item \textbf{Modify Appointment}
+                    \item \textbf{Cancel Appointment}
+                    \item \textbf{Appointment Reminder}
+                    \item \textbf{Cancel Appointment}
+                    \item \textbf{Appointment Execution}
+                    \item \textbf{Appointment Payment}
+            \end{itemize}
+
+            At the same time every activity contains sub-activities that are required to finish an activity before going to the next one.
+            
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=1\linewidth]{./img/Activity.png}
-                \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
+                \setcaptioncitation{Created with Modelio 3.7.}
+                \caption{Activity Diagram.}
+                \label{fig:activity}
             \end{figure}
+
+            The activity diagram designed intents to explain the entire appointment process, from the request of the appointment by the patient, until the execution and the appointment payment. This 
+            diagram also consider the inputs, outputs and decision in every activities
+
             \section{State Diagram}
            
-            Next to the activity diagram is the State Machine Diagram, which is also a behavior
+            Next to the activity diagram is the State Diagram, which is also a behavior
             diagram focus on how a structure within a system changes in response to event
             occurrences over time. It refers to the behavior that begins executing the moment a block
             is instantiated and generally finishes executing when that instance is destroyed
-    
+            
+            The developed state diagram developed in the figure \ref{fig:state} represents all the possible states for the appointment entity and all the responsible actions that makes the appointment to exit or entry into a 
+            determined state.
+
             \begin{figure}[H]
                 \centering 
                 \includegraphics[width=.8\linewidth]{./img/state.png}
-                \setcaptioncitation{self-made}
-                \caption{Distributed Computing Implementation.}
-                \label{fig:architecture}
+                \setcaptioncitation{Created with Modelio 3.7.}
+                \caption{State Diagram}
+                \label{fig:state}
             \end{figure}
-    
+            
+            There are 10 possible states, 7 sub-states and more than 12 operations for the appointment. All the operations are also included in the class diagram and  better explained with the respective arguments and return values.
+            
         
     \end{document}

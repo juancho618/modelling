@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1514935209 "/home/juan/Documents/modelling project/modelling/report.tex" "report.pdf" "report" 1514935209
+["pdflatex"] 1514970900 "/home/juan/Documents/modelling project/modelling/report.tex" "report.pdf" "report" 1514970900
   "/etc/texmf/web2c/texmf.cnf" 1510763900 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/juan/Documents/modelling project/modelling/report.tex" 1514935209 19349 b186bd15d0050a4504493059f4fea0ef ""
+  "/home/juan/Documents/modelling project/modelling/report.tex" 1514970900 20991 91aa6267e47fe73441e0fce30ce8b811 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -85,13 +85,13 @@
   "img/seq3.png" 1514882041 25401 0aeea7e5bdf1773d7be582411eb5bd45 ""
   "img/state.png" 1514881327 101143 bea25593de56f4dc4fdc270ca1983381 ""
   "img/vub.png" 1514881469 23480 0a4c0a7821a76c207497b16e39de35cf ""
-  "report.aux" 1514935152 2366 c8ad9675d5918848836617555b224634 ""
-  "report.lof" 1514935152 828 d0f24c9ceb778d100f1becf74aaf9c13 ""
-  "report.tex" 1514935209 19349 b186bd15d0050a4504493059f4fea0ef ""
-  "report.toc" 1514935152 782 671f8034fa1403867510a77c4019805a ""
+  "report.aux" 1514970750 2311 68c88b965b028896b60661007958c489 ""
+  "report.lof" 1514970750 784 a68aee5ba029c8614b8a634fa2d62f5e ""
+  "report.tex" 1514970900 20991 91aa6267e47fe73441e0fce30ce8b811 ""
+  "report.toc" 1514970750 782 53b25d74ca64f4151f2bdd010c0cfc61 ""
   (generated)
+  "report.lof"
   "report.pdf"
   "report.log"
-  "report.toc"
   "report.aux"
-  "report.lof"
+  "report.toc"
