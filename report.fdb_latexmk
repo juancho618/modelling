@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex report"] 1515841124 "report.aux" "report.bbl" "report" 1515841180
+["bibtex report"] 1515846022 "report.aux" "report.bbl" "report" 1515846054
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "report.aux" 1515840974 2435 53d2e9c1d6f5b46ba9b594338b9da691 ""
+  "report.aux" 1515841731 2508 02a4535c843f46a543518c62a6c61c0b ""
   "report.bcf" 0 -1 0 ""
-  "report.bib" 1515840337 327 e51f3224fb5111ddcc78e85571afba49 ""
+  "report.bib" 1515845954 630 820ada21f4d49d7d1dedff0f1f65487f ""
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1515841180 "/home/juan/Documents/modelling project/modelling/report.tex" "report.pdf" "report" 1515841180
+["pdflatex"] 1515846054 "/home/juan/Documents/modelling project/modelling/report.tex" "report.pdf" "report" 1515846054
   "/etc/texmf/web2c/texmf.cnf" 1510763900 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/juan/Documents/modelling project/modelling/report.tex" 1515841180 20996 a47e61021bcb60f47c8d0be33dcbccb0 ""
+  "/home/juan/Documents/modelling project/modelling/report.tex" 1515846054 22252 c275fccfc8d5803f3f360493e8412abf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -93,14 +93,14 @@
   "img/seq3.png" 1514882041 25401 0aeea7e5bdf1773d7be582411eb5bd45 ""
   "img/state.png" 1514881327 101143 bea25593de56f4dc4fdc270ca1983381 ""
   "img/vub.png" 1514881469 23480 0a4c0a7821a76c207497b16e39de35cf ""
-  "report.aux" 1515840974 2435 53d2e9c1d6f5b46ba9b594338b9da691 ""
-  "report.bbl" 1515841124 233 35a2df0c461b3e2fcf6b618e578828e4 "bibtex report"
-  "report.lof" 1515840974 784 a68aee5ba029c8614b8a634fa2d62f5e ""
-  "report.tex" 1515841180 20996 a47e61021bcb60f47c8d0be33dcbccb0 ""
-  "report.toc" 1515840974 782 53b25d74ca64f4151f2bdd010c0cfc61 ""
+  "report.aux" 1515841731 2508 02a4535c843f46a543518c62a6c61c0b ""
+  "report.bbl" 1515846022 489 18ea3da83840aef0b825c43c375884b5 "bibtex report"
+  "report.lof" 1515841731 784 a68aee5ba029c8614b8a634fa2d62f5e ""
+  "report.tex" 1515846054 22252 c275fccfc8d5803f3f360493e8412abf ""
+  "report.toc" 1515841731 837 2957ba4123fdf76ff4585b17abaa5a61 ""
   (generated)
-  "report.log"
   "report.aux"
   "report.pdf"
-  "report.lof"
   "report.toc"
+  "report.log"
+  "report.lof"

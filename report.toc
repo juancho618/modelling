@@ -10,3 +10,4 @@
 \contentsline {section}{\numberline {D}Sequence Diagram}{9}
 \contentsline {section}{\numberline {E}Activity Case Diagram}{12}
 \contentsline {section}{\numberline {F}State Diagram}{14}
+\contentsline {section}{\numberline {G}conclusion}{14}

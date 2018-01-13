@@ -8,4 +8,13 @@ L.~Delligatti, {\em {SysML Distilled}}.
 C.~Torres, {\em Lab session Manuals}.
 \newblock Vrije Univesiteit Brussel, 10.
 
+\bibitem{umlSite}
+``Introduction to omg's unified modeling language.''
+  \url{http://www.uml.org/what-is-uml.htm}.
+\newblock Accessed: 2017-12-23.
+
+\bibitem{tut}
+``Uml tutorial.'' \url{https://www.tutorialspoint.com/uml/}.
+\newblock Accessed: 2017-12-22.
+
 \end{thebibliography}
