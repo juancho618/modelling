@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.15)  3 JAN 2018 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.15)  13 JAN 2018 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,19 +309,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-/home/juan/Documents/modelling project/modelling/report.tex:72: Misplaced align
-ment tab character &.
-l.72             (Delligatti, Steiner, &
-                                         Soley, 2013). % TODO: cite
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<./img/appointments.png, id=23, 1703.36375pt x 562.1pt>
+ <./img/appointments.png, id=23, 1703.36375pt x 562.1pt>
 File: ./img/appointments.png Graphic file (type png)
 
 <use ./img/appointments.png>
@@ -397,22 +385,11 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
- [7 <./img/class.png (PNG copy)>] [8]
-Runaway argument?
-{fig:sequence1, figure \ref {fig:sequence2} and figure \ref {fig:sequ\ETC.
-/home/juan/Documents/modelling project/modelling/report.tex:215: Paragraph ende
-d before \ref was complete.
-<to be read again> 
-                   \par 
-l.215 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<./img/seq1.png, id=42, 507.8975pt x 550.055pt>
+ [7 <./img/class.png (PNG copy)>] [8] <./img/seq1.png, id=42, 507.8975pt x 550.
+055pt>
 File: ./img/seq1.png Graphic file (type png)
- <use ./img/seq1.png>
+
+<use ./img/seq1.png>
 Package pdftex.def Info: ./img/seq1.png used on input line 218.
 (pdftex.def)             Requested size: 386.95894pt x 419.09528pt.
 
@@ -459,19 +436,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11 <./img/seq2.png>]
-/home/juan/Documents/modelling project/modelling/report.tex:250: Misplaced alig
-nment tab character &.
-l.250 ...urrence over time (Delligatti, Steiner, &
-                                                   Soley, 2013). Together
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[12 <./img/seq3.png>] <./img/Activity.png, id=57, 1649.16125pt x 1642.135pt>
+[11 <./img/seq2.png>] [12 <./img/seq3.png>]
+<./img/Activity.png, id=57, 1649.16125pt x 1642.135pt>
 File: ./img/Activity.png Graphic file (type png)
 
 <use ./img/Activity.png>
@@ -505,27 +471,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[14 <./img/state.png (PNG copy)>] (./report.aux) ) 
+[14 <./img/state.png (PNG copy)>] (./report.bbl) [15] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4785 strings out of 493029
- 72609 string characters out of 6136233
+ 4790 strings out of 493029
+ 72653 string characters out of 6136233
  159993 words of memory out of 5000000
- 8244 multiletter control sequences out of 15000+600000
+ 8246 multiletter control sequences out of 15000+600000
  11849 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,7n,40p,423b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb>
-Output written on report.pdf (14 pages, 1153864 bytes).
+</usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (15 pages, 1156027 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

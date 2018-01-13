@@ -139,9 +139,9 @@ INPUT ./img/payments.png
 INPUT ./img/class.png
 INPUT ./img/class.png
 INPUT ./img/class.png
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT ./img/seq1.png
 INPUT ./img/seq1.png
 INPUT ./img/seq1.png
@@ -157,6 +157,8 @@ INPUT ./img/Activity.png
 INPUT ./img/state.png
 INPUT ./img/state.png
 INPUT ./img/state.png
+INPUT report.bbl
+INPUT report.bbl
 INPUT report.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

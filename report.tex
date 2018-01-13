@@ -54,11 +54,11 @@
     
             \section{Introduction}
 
-            Modeling is an important part of any System or product development that helps to understand the model system an holistic point of view and to ensure that all the functionalities and
-            stakeholders requirements are cover. One of the most popular modeling tools nowadays in the software and product development environment is UML.
+            Modeling is an important part of any System or product development that helps to understand the model system from a holistic point of view, ensuring that all the functionalities and
+            stakeholders requirements are covered. One of the most popular modeling tools nowadays in the software and product development environment is UML.
 
-            UML is a communication standard for the world of software development.  It consists of different types of diagrams that will, together, help you describe the boundary of the system, the structure 
-            of the system, and the behavior of the system.
+            UML is a communication standard for the world of software development.  It consists of different types of diagrams that  help to describe the boundary, the structure 
+            and the behavior of the system.
 
             In this report, a Hospital appointment and billing system management are described and modeled in UML as result of the concepts and diagrams learn in the course of Modeling Languages.
 
@@ -67,12 +67,12 @@
             \newpage         
             \section{Use Case Diagram}
 
-            A use case captures a contract between the stakeholders of a system about its behavior describes the
+            A use case diagram captures and explains to the stakeholders of a system about its behavior describes the
             system’s behavior under various conditions as it responds to a request from the “primary actor”
-            (Delligatti, Steiner, & Soley, 2013). % TODO: cite
+            \cite{sysml}.
 
             The case diagram is also good to ensure that every member in the development team understand the main activities and behavior of the system,
-            recognizing the actors and the global interactions between them
+            recognizing the actors and the global interactions among them.
 
             The use case diagram is divided in three main behaviors, the appointment management, clinical history management and payments.
 
@@ -129,8 +129,8 @@
 
             The Patient have the option of paying at the hospital or by a bank transfer.
             
-            \section{Class Diagram} %reformulate
-            Class diagram describes the attributes and operations of a class and also the constraints 
+            \section{Class Diagram} 
+            The Class diagram describes the attributes and operations of a class and also the constraints 
             imposed on the system. The class diagrams are widely used in the modeling of object oriented 
             systems because they are the only UML diagrams, which can be mapped directly with object-oriented languages.
             
@@ -158,7 +158,7 @@
             medical history of the patient. 
 
             The system also generates and schedule notifications. I like to imaging the system as a server running all the logic of the application, connected to a Database where all the Clinical Stories, Users and bills are saved.
-            The GUI is part of the front-end (and middleware) of the application and the system is the back-end, using a \textbf{token} to authenticate and establish the connection with the database.
+            The GUI is part of the front-end (and middleware) of the application and the system is the back-end, using a \textit{token} to authenticate and establish the connection with the database.
             
             It is easy to identify the system controller (application) as the entity with the biggest amount of operations. This is due to its "gateway" nature to allow the  interaction between the entities and actors in the system.
             
@@ -211,7 +211,7 @@
             The sequence diagram implement is the appointment execution, involving the doctor, the hospital system and the database. The sequence diagram include some of the operations presented in the class diagram and shows entities interactions arranged in time sequence. As an important remark, I am considering that the
             Doctor is using an \textit{stateless} web application to access to the hospital system. This also explains why every action ends after the \textit{server} and \textit{database} response.
 
-            The sequence diagram designed is vertically too long to be included in a single image. For this reason it was split in the figure \ref{fig:sequence1, figure \ref{fig:sequence2} and figure \ref{fig:sequence3}.
+            The sequence diagram designed is vertically too long to be included in a single image. For this reason it was split in the figure \ref{fig:sequence1}, figure \ref{fig:sequence2} and figure \ref{fig:sequence3}.
            
             \begin{figure}[H]
                 \centering 
@@ -244,10 +244,10 @@
             Finally in the figure \ref{fig:sequence3} illustrates hoe the report is saved in the clinical history of the patient and the creation of the bill to be paid by the patient.
             At the end of the day the Doctor is able to logout and destroy the user connection with the system.
 
-            \section{Activity Case Diagram} %cite
+            \section{Activity Case Diagram} 
 
             The activity diagrams are dynamic views of the system that expresses sequence of
-            behaviors and event occurrence over time (Delligatti, Steiner, & Soley, 2013). Together
+            behaviors and event occurrence over time \cite{sysml}. Together
             with the state diagram, the system behavior is expressed.
 
             The activity diagram  somehow divides the hospital management in processes. In the figure \ref{fig:activity} the activity diagram is explained in 8 parts:
@@ -275,14 +275,14 @@
             \end{figure}
 
             The activity diagram designed intents to explain the entire appointment process, from the request of the appointment by the patient, until the execution and the appointment payment. This 
-            diagram also consider the inputs, outputs and decision in every activities
+            diagram also consider the inputs, outputs and decision in every activity.
 
             \section{State Diagram}
            
             Next to the activity diagram is the State Diagram, which is also a behavior
             diagram focus on how a structure within a system changes in response to event
             occurrences over time. It refers to the behavior that begins executing the moment a block
-            is instantiated and generally finishes executing when that instance is destroyed
+            is instantiated and generally finishes executing when that instance is destroyed.
             
             The developed state diagram developed in the figure \ref{fig:state} represents all the possible states for the appointment entity and all the responsible actions that makes the appointment to exit or entry into a 
             determined state.
@@ -298,4 +298,8 @@
             There are 10 possible states, 7 sub-states and more than 12 operations for the appointment. All the operations are also included in the class diagram and  better explained with the respective arguments and return values.
             
         
+            \newpage
+            \bibliography{report}
+            \bibliographystyle{ieeetr}
+            \nocite{*}
     \end{document}
