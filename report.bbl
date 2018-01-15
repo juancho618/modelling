@@ -1,20 +1,17 @@
 \begin{thebibliography}{1}
 
 \bibitem{sysml}
-L.~Delligatti, {\em {SysML Distilled}}.
+L.~Delligatti, {\em SysML Distilled}.
 \newblock OMGSysMl, 2013.
 
 \bibitem{LabManual}
 C.~Torres, {\em Lab session Manuals}.
-\newblock Vrije Univesiteit Brussel, 10.
+\newblock Vrije Univesiteit Brussel, 12 2017.
 
 \bibitem{umlSite}
 ``Introduction to omg's unified modeling language.''
-  \url{http://www.uml.org/what-is-uml.htm}.
-\newblock Accessed: 2017-12-23.
 
 \bibitem{tut}
-``Uml tutorial.'' \url{https://www.tutorialspoint.com/uml/}.
-\newblock Accessed: 2017-12-22.
+``Uml tutorial.''
 
 \end{thebibliography}

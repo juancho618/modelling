@@ -3,41 +3,40 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: ieeetr.bst
 Database file #1: report.bib
-I was expecting a `,' or a `}'---line 5 of file report.bib
- : month        = 10
- :                  -12,
-I'm skipping whatever remains of this entry
-Warning--there's a month but no year in LabManual
+Warning--entry type for "umlSite" isn't style-file defined
+--line 8 of file report.bib
+Warning--entry type for "tut" isn't style-file defined
+--line 13 of file report.bib
 You've used 4 entries,
             1876 wiz_defined-function locations,
-            496 strings with 3786 characters,
-and the built_in function-call counts, 521 in all, are:
-= -- 52
+            493 strings with 3667 characters,
+and the built_in function-call counts, 484 in all, are:
+= -- 42
 > -- 10
 < -- 0
 + -- 6
 - -- 2
-* -- 18
-:= -- 73
-add.period$ -- 8
+* -- 17
+:= -- 65
+add.period$ -- 4
 call.type$ -- 4
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 5
+cite$ -- 4
 duplicate$ -- 24
 empty$ -- 72
 format.name$ -- 2
-if$ -- 134
+if$ -- 124
 int.to.chr$ -- 0
 int.to.str$ -- 4
 missing$ -- 2
-newline$ -- 19
+newline$ -- 17
 num.names$ -- 2
-pop$ -- 26
+pop$ -- 22
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 18
 stack$ -- 0
 substring$ -- 0
 swap$ -- 3
@@ -45,8 +44,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
+warning$ -- 0
 while$ -- 2
 width$ -- 5
-write$ -- 36
-(There was 1 error message)
+write$ -- 30
+(There were 2 warnings)
